@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime number</title>
+</head>
+<body>
+    <script>
+        var i=1, n, c=0;
+        n=parseInt(prompt("Enter number"));
+        while (i<=n)
+         {
+           if(n%i==0)
+           c++;
+           i++;
+        }
+        if (c==2) 
+            document.write("prime");
+            else
+            document.write("not prime");
+        
+    </script>
+    
+</body>
+</html>
